@@ -155,3 +155,9 @@ models/
 logs/
 data/
 backup/
+SC2RL/models/
+SC2RL/logs/
+SC2RL/data/
+SC2RL/backup/
+SC2RL/*.pkl
+
