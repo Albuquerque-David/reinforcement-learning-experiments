@@ -6,11 +6,11 @@ import os
 import time
 
 
-env = gym.make("ALE/DonkeyKong-v5", render_mode="human")
+env = gym.make("BreakoutNoFrameskip-v4", render_mode="human")
 env.reset()
 
-models_dir = "models/donkeykong/PPO-1700512027"
-model_path = f"{models_dir}/60000.zip"
+models_dir = "models/breakout/PPO-2024-01-08 00:43:35"
+model_path = f"{models_dir}/5900000.zip"
 
 model = PPO.load(model_path, env=env)
 
